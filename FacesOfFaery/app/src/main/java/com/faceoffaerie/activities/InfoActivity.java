@@ -42,11 +42,9 @@ public class InfoActivity extends AppCompatActivity implements OnClickListener{
     }
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        //setLayoutId(this, R.layout.activity_info_menu);
         Log.e("info is back","info is back");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info_menu);
-       // requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         infoActivity = this;
