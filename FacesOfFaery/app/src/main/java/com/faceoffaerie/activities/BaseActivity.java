@@ -31,13 +31,11 @@ public class BaseActivity extends FragmentActivity {
 	@Override
 	public void onResume() {
 		AppUtils.log(TAG, "onResume");
-		//BackgroundMusicModel.getInstance().changeState(false);
 		super.onResume();
 	}
 	@Override
 	public void onPause() {
 		AppUtils.log(TAG, "onPause");
-		//BackgroundMusicModel.getInstance().changeState(true);
 		super.onPause();
 	}
 	protected void setLayoutId(Context context, final int layoutID) {
