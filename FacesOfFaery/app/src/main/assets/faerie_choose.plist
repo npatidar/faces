@@ -1,0 +1,483 @@
+<array>
+		<dict>
+			<key>File Name</key>
+			<string>1</string>
+			<key>Name</key>
+			<string>Milkchurn Peg</string>
+			<key>Image</key>
+            <string>milkchurn</string>
+			<key>Reading</key>
+			<string>&quot;Plant and harvest your thoughts and wishes&quot;</string>
+
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>2</string>
+			<key>Name</key>
+			<string>The Pond Faery</string>
+			<key>Image</key>
+            <string>the_pond_faery</string>
+			<key>Reading</key>
+			<string>&quot;Feel the Cool Depths&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>3</string>
+			<key>Name</key>
+			<string>The Traveller</string>
+			<key>Image</key>
+            <string>the_traveller</string>
+			<key>Reading</key>
+			<string>&quot;There is joy in everything, there is kindness everywhere&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>4</string>
+			<key>Name</key>
+			<string>Puck</string>
+			<key>Image</key>
+            <string>puck</string>
+			<key>Reading</key>
+			<string>&quot;Time for a bit of mischief!&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>5</string>
+			<key>Name</key>
+			<string>Cythera</string>
+			<key>Image</key>
+            <string>cythera</string>
+			<key>Reading</key>
+			<string>&quot;Think about what you ask for&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>6</string>
+			<key>Name</key>
+			<string>Deirdra of the sorrows</string>
+			<key>Image</key>
+            <string>deirdra_of_the_sorrow</string>
+			<key>Reading</key>
+			<string>&quot;It’s alright to be sad sometimes&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>7</string>
+			<key>Name</key>
+			<string>Kit</string>
+			<key>Image</key>
+			<string>kit</string>
+			<key>Reading</key>
+			<string>&quot;It’s ok to be grumpy&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>8</string>
+			<key>Name</key>
+			<string>Carrabose - The 13th Faery</string>
+			<key>Image</key>
+            <string>carrabose_the_13th_faery</string>
+			<key>Reading</key>
+			<string>&quot;Sometimes that’s just the way it is&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>9</string>
+			<key>Name</key>
+			<string>The Faery Queen</string>
+			<key>Image</key>
+            <string>the_faery_queen</string>
+			<key>Reading</key>
+			<string>&quot;To love, to lose, to break, to mend – we all experience these things&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>10</string>
+			<key>Name</key>
+			<string>The Faery Healer</string>
+			<key>Image</key>
+            <string>the_faery_healer</string>
+			<key>Reading</key>
+			<string>&quot;Heal what you can&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>11</string>
+			<key>Name</key>
+			<string>The Moss Woman</string>
+			<key>Image</key>
+            <string>the_moss_woman</string>
+			<key>Reading</key>
+			<string>&quot;Be open to kindness when it comes your way&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>12</string>
+			<key>Name</key>
+			<string>Callista</string>
+			<key>Image</key>
+            <string>callista</string>
+			<key>Reading</key>
+			<string>&quot;Everyone has secrets&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>13</string>
+			<key>Name</key>
+			<string>The Faery Godmother</string>
+			<key>Image</key>
+            <string>the_faery_godmother</string>
+			<key>Reading</key>
+			<string>&quot;Make a wish&quot;</string>
+		</dict>
+		<dict>
+            <key>File Name</key>
+   			<string>14</string>
+   			<key>Name</key>
+          	<string>Alice</string>
+            <key>Image</key>
+            <string>alice</string>
+            <key>Reading</key>
+            <string>&quot;Look closer - What do you see?&quot;</string>
+        </dict>
+		<dict>
+			<key>File Name</key>
+			<string>15</string>
+			<key>Name</key>
+			<string>Mara</string>
+			<key>Image</key>
+            <string>mara</string>
+			<key>Reading</key>
+			<string>&quot;Enchant those around you&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>16</string>
+			<key>Name</key>
+			<string>The Faery Guide</string>
+			<key>Image</key>
+            <string>the_faery_guide</string>
+			<key>Reading</key>
+			<string>&quot;Step into faerie&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>17</string>
+			<key>Name</key>
+			<string>Your Other Faery Godmother</string>
+			<key>Image</key>
+            <string>your_other_faery_godmother</string>
+			<key>Reading</key>
+			<string>&quot;Make sure you know what you’re wishing for&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>18</string>
+			<key>Name</key>
+			<string>The Faery Piper</string>
+			<key>Image</key>
+            <string>the_faery_piper</string>
+			<key>Reading</key>
+			<string>&quot;Follow the music&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>19</string>
+			<key>Name</key>
+			<string>Flora</string>
+			<key>Image</key>
+            <string>flora</string>
+			<key>Reading</key>
+			<string>&quot;Look for the beauty in that which surrounds you&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>20</string>
+			<key>Name</key>
+			<string>Alison Gross</string>
+			<key>Image</key>
+            <string>alison_gross</string>
+			<key>Reading</key>
+			<string>&quot;Look beyond - What do you see?&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>21</string>
+			<key>Name</key>
+			<string>The Banshee</string>
+			<key>Image</key>
+            <string>the_banshee</string>
+			<key>Reading</key>
+			<string>&quot;Connect with your ancestors&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>22</string>
+			<key>Name</key>
+			<string>The Watcher</string>
+			<key>Image</key>
+            <string>the_watcher</string>
+			<key>Reading</key>
+			<string>&quot;It is a time for watching and waiting&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>23</string>
+			<key>Name</key>
+			<string>The King</string>
+			<key>Image</key>
+            <string>the_king</string>
+			<key>Reading</key>
+			<string>&quot;It isn’t always about you&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>24</string>
+			<key>Name</key>
+			<string>Sweet Cecilia</string>
+			<key>Image</key>
+            <string>sweet_cecilia</string>
+			<key>Reading</key>
+			<string>&quot;Be a good faery!&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>25</string>
+			<key>Name</key>
+			<string>The House Brownie</string>
+			<key>Image</key>
+            <string>the_house_brownie</string>
+			<key>Reading</key>
+			<string>&quot;Keep your thoughts and house in order&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>26</string>
+			<key>Name</key>
+			<string>The Leprechaun</string>
+			<key>Image</key>
+            <string>the_leprechaun</string>
+			<key>Reading</key>
+			<string>&quot;Follow the rainbow, Seek the gold&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>27</string>
+			<key>Name</key>
+			<string>The Phantom Lover</string>
+			<key>Image</key>
+            <string>the_phantom_lover</string>
+			<key>Reading</key>
+			<string>&quot;Sometimes it’s good to dream in secret&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>28</string>
+			<key>Name</key>
+			<string>It’s Only Me!</string>
+			<key>Image</key>
+            <string>its_only_me</string>
+			<key>Reading</key>
+			<string>&quot;Here’s looking at you&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>29</string>
+			<key>Name</key>
+			<string>The Frog Prince</string>
+			<key>Image</key>
+            <string>the_frog_prince</string>
+			<key>Reading</key>
+			<string>&quot;Love can be anything you want it to be&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>30</string>
+			<key>Name</key>
+			<string>The Bad Boy</string>
+			<key>Image</key>
+            <string>the_bad_boy</string>
+			<key>Reading</key>
+			<string>&quot;Be careful&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>31</string>
+			<key>Name</key>
+			<string>The Good Companion</string>
+			<key>Image</key>
+            <string>the_good_companion</string>
+			<key>Reading</key>
+			<string>&quot;Smile a faery’s smile&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>32</string>
+			<key>Name</key>
+			<string>The Faery Sister</string>
+			<key>Image</key>
+            <string>the_faery_sister</string>
+			<key>Reading</key>
+			<string>&quot;Love the years&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>33</string>
+			<key>Name</key>
+			<string>Far Seer</string>
+			<key>Image</key>
+            <string>far_seer</string>
+			<key>Reading</key>
+			<string>&quot;Call upon your inner strength&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>34</string>
+			<key>Name</key>
+			<string>Little Cat Faery</string>
+			<key>Image</key>
+            <string>little_cat_faery</string>
+			<key>Reading</key>
+			<string>&quot;Think like a cat&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>35</string>
+			<key>Name</key>
+			<string>Alyssa</string>
+			<key>Image</key>
+            <string>alyssa</string>
+			<key>Reading</key>
+			<string>&quot;Know your need&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>36</string>
+			<key>Name</key>
+			<string>The Shadow Man</string>
+			<key>Image</key>
+            <string>the_shadow_man</string>
+			<key>Reading</key>
+			<string>&quot;Be aware of the shadow side&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>37</string>
+			<key>Name</key>
+			<string>The Boy</string>
+			<key>Image</key>
+            <string>the_boy</string>
+			<key>Reading</key>
+			<string>&quot;How old am I - how old are you?&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>38</string>
+			<key>Name</key>
+			<string>King Henry’s Wife</string>
+			<key>Image</key>
+            <string>king_henrys_wife</string>
+			<key>Reading</key>
+			<string>&quot;Take pride in who you are&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>39</string>
+			<key>Name</key>
+			<string>The Selkie</string>
+			<key>Image</key>
+            <string>the_selkie</string>
+			<key>Reading</key>
+			<string>&quot;Feel the pull of the tides&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>40</string>
+			<key>Name</key>
+			<string>The Wisht Hound</string>
+			<key>Image</key>
+			<string>the_wisht_hound</string>
+			<key>Reading</key>
+			<string>&quot;Run with the hunt&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>41</string>
+			<key>Name</key>
+			<string>The Dryad</string>
+			<key>Image</key>
+            <string>the_dryad</string>
+			<key>Reading</key>
+			<string>&quot;Sometimes the answer is hidden in the green&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>42</string>
+			<key>Name</key>
+			<string>The Soul of Faerie</string>
+			<key>Image</key>
+            <string>the_soul_of_faerie</string>
+			<key>Reading</key>
+			<string>&quot;There is wisdom in everyone&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>43</string>
+			<key>Name</key>
+			<string>Button</string>
+			<key>Image</key>
+            <string>button</string>
+			<key>Reading</key>
+			<string>&quot;Feeling slightly guilty?&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>44</string>
+			<key>Name</key>
+			<string>The Faery Diplomat</string>
+			<key>Image</key>
+            <string>the_faery_diplomat</string>
+			<key>Reading</key>
+			<string>&quot;Approach your problems with diplomacy&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>45</string>
+			<key>Name</key>
+			<string>Faery Hare</string>
+			<key>Image</key>
+            <string>faery_hare</string>
+			<key>Reading</key>
+			<string>&quot;Remember your childhood, Remember me&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>46</string>
+			<key>Name</key>
+			<string>Tinker Bell</string>
+			<key>Image</key>
+            <string>tinker_bell</string>
+			<key>Reading</key>
+			<string>&quot;Believe&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>47</string>
+			<key>Name</key>
+			<string>One Who Waits</string>
+			<key>Image</key>
+            <string>one_who_waits</string>
+			<key>Reading</key>
+			<string>&quot;Remember absent loved ones&quot;</string>
+		</dict>
+		<dict>
+			<key>File Name</key>
+			<string>48</string>
+			<key>Name</key>
+			<string>The Faery of The Stream</string>
+			<key>Image</key>
+            <string>the_faery_of_the_stream</string>
+			<key>Reading</key>
+			<string>&quot;Listen to the music of the stream&quot;</string>
+		</dict>
+</array>

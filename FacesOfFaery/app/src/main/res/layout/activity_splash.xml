@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/splash_image_view"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:id="@+id/splash_image_view_tablet"  />-->
+
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:context=".activities.SplashActivity"-->
+        <!--android:id="@+id/splash_screen"-->
+
+        <!-->-->
+        <!--&lt;!&ndash;android:background="@drawable/splash_screen_phone"&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+</RelativeLayout>
+
+
+
+
+
+
+
+

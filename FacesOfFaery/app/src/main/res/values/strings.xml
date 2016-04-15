@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Faces of Faerie</string>
+    <string name="choose">"WHO WILL CHOOSE" \n "FOR YOU TODAY?" </string>
+    <string name="chooseforyou">WHO WILL CHOOSE </string>
+    <string name="chooseforyouone">FOR YOU TODAY?</string>
+    <string name="faery_choose">"TOUCH AND HOLD THE" \n "CENTER OF THE SYMBOL" \n "UNTIL YOUR FAERY" \n "REVEALS ITSELF."</string>
+    <string name="alert_title">Attention!</string>
+    <string name="alert_title_one">Faery Saved </string>
+    <string name="alert_title_two">Saved!</string>
+    <string name="Auto_alert">Password</string>
+    <string name="Auto_alert_title">WAIT!</string>
+    <string name="Auto_alert_title_one">Success!</string>
+
+    // String for alerts
+
+
+    <string name="alert_txt">The Faeries need more light to see you.\nPlease take your photo in a well lit\n area.\nAfter you have taken your photo touch \n</string>
+    <string name="alert_title_oop">Oops!</string>
+    <string name="alert_txt_oop"> The faeries need more light to see you!\nPlease retake your picture</string>
+    <string name="alert_txt_lineup">I am sorry we did not see you!\nPlease line up your eyes within the eye\nguides.\nPlease retake your picture</string>
+
+
+
+</resources>

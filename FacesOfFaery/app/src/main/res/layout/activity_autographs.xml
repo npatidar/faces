@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootRelativeLayout">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/autograph_background"
+        />
+    <!--android:src="@drawable/infoscreen_background_m"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:id="@+id/contentLinearLayout"
+            android:layout_weight="70"
+            android:weightSum="100" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:gravity="center">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                >
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.6"
+                    ></FrameLayout>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:src="@drawable/autographslabel"
+                    android:layout_weight="6"
+                    android:scaleType="fitXY"
+                    android:id="@+id/titleImageView"
+                    android:adjustViewBounds="true"
+                    />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.6"
+                    ></FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:gravity="center">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    ></FrameLayout>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:src="@drawable/seperator_line"
+                    android:layout_weight="6"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    ></FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:gravity="center" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="80"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="12"></FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="76"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/faeryScrollView"
+                        android:scrollbars="none">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:scaleType="fitXY"
+                                android:id="@+id/autoGraphImageView"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/autographpagetextimage"
+                                android:layout_height="match_parent"
+                                android:adjustViewBounds="true"/>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="12"></FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="22"
+            android:gravity="center"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                ></FrameLayout>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:src="@drawable/faerycomeimage"
+                android:layout_weight="4"
+                android:scaleType="fitXY"
+                android:id="@+id/avatarImageView"
+                android:adjustViewBounds="true"
+                />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7.5"
+                ></FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                ></FrameLayout>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:src="@drawable/home"
+                android:id="@+id/homeButton"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                ></FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <com.faceoffaerie.objects.DrawingView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/drawImageView"
+            android:visibility="gone"
+            android:layout_weight="59"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="&lt;&lt;SWIPE TO ERASE AUTOGRAPH(S)&gt;&gt;"
+            android:id="@+id/swipeTextView"
+            android:textSize="11sp"
+            android:textColor="@color/brown_text_color"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_weight="7"
+            android:background="#30000000"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="23"
+            android:gravity="center"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                ></FrameLayout>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:src="@drawable/faerycomeimage"
+                android:id="@+id/faery_saved_image"
+                android:layout_weight="4.7"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                ></FrameLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.4"
+                ></FrameLayout>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:src="@drawable/home"
+                android:id="@+id/homeButtonsave"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.4"
+                ></FrameLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="63"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="27"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                ></FrameLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                android:weightSum="100">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="43"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#00000000"
+                android:src="@drawable/fof_logo_mobile"
+                android:id="@+id/auto_faces_faery_logo"
+                android:layout_weight="24"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="33"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:background="#00000000"
+                android:src="@drawable/autograph_image"
+                android:id="@+id/auto_face_logo"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                ></FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                ></FrameLayout>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="#00000000"
+                android:src="@drawable/options"
+                android:id="@+id/optionsImageView"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                ></FrameLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:weightSum="100" >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="91"></FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:id="@+id/backgroundimage_ovel_autograph"
+                    android:background="@drawable/white_circle"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/menuLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="355dp"
+        android:background="#a0000000"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/as_seperatorbar" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:src="@drawable/as_sharetitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/facebookMenuImageView"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/as_facebookbtn"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:scaleType="fitEnd" />
+
+            <ImageView
+                android:id="@+id/twitterMenuImageView"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/as_twitterbtn"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:scaleType="fitStart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/emailMenuImageView"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/as_emailbtn"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:scaleType="fitEnd" />
+
+            <ImageView
+                android:id="@+id/messageMenuImageView"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/as_messagebtn"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:scaleType="fitStart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                ></FrameLayout>
+
+            <ImageView
+                android:id="@+id/printImageView"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/as_printbtn"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:scaleType="fitEnd" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                ></FrameLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/as_seperatorbar" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:src="@drawable/as_optionstitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/homeMenuImageView"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/as_homebtn"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:scaleType="fitEnd" />
+
+            <ImageView
+                android:id="@+id/infoMenuImageView"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/as_infobtn"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:scaleType="fitStart" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/as_seperatorbar" />
+
+        <ImageView
+            android:id="@+id/cancelMenuImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/as_cancelbtn"
+            android:clickable="true"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+

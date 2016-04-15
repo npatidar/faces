@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayout"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/home_image_mobile" />
+
+
+    <!--android:src="@drawable/mainmenu_background"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/SplashLinearlayout"
+        tools:context="com.faceoffaerie.activities.SplashActivity"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <!--android:background="@drawable/meditation_phone"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="22"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:src="@drawable/fof_logo_t"
+                android:id="@+id/logoImageView"
+                android:adjustViewBounds="true"
+                android:layout_weight="7"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"/>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/choose_tv"
+                android:textSize="20sp"
+                android:text="@string/choose"
+                android:textColor="@color/yellow_text_color"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"></FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:id="@+id/youChooseImageButton"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/you_choose"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="right" />
+
+            </RelativeLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"></FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="22">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.135"></FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.13">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:id="@+id/backgroundimage_ovel"
+                    android:background="@drawable/white_circle"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:id="@+id/faeryChooseImageButton"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/faery_choose"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="right" />
+            </RelativeLayout>
+
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"></FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:gravity="center"
+            >
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"></FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6">
+
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/savedFaeriesButton"
+                    android:background="#00000000"
+                    android:onClick="onClick"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/savedfaeries_btn"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="right"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4">
+
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoGraphButton"
+                    android:background="#00000000"
+                    android:onClick="onClick"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/autograph_btn"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="right"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".20"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="3dp">
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/infoButton"
+                    android:background="#00000000"
+                    android:onClick="onClick"
+                    android:layout_centerInParent="true"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/info_btn"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+
+                    />
+            </RelativeLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1">
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:weightSum="100" >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"></FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="22">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:id="@+id/backgroundimage_ovel_you"
+                    android:background="@drawable/white_circle"/>
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="38"></FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100" >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="89"></FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"></FrameLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone"
+                        android:id="@+id/backgroundimage_ovel_saved"
+                        android:background="@drawable/white_circle"/>
+
+                </RelativeLayout>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"></FrameLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone"
+                        android:id="@+id/backgroundimage_ovel_Auto"
+                        android:background="@drawable/white_circle"/>
+
+
+                </RelativeLayout>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.15"></FrameLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone"
+                        android:id="@+id/backgroundimage_ovel_info"
+                        android:background="@drawable/white_circle"/>
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+    <!--android:src="@drawable/launch_screen_m"-->
+</RelativeLayout >
